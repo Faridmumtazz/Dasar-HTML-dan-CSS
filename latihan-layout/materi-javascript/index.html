@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="datanya">
+
+    </div>
+    <script>
+        
+
+        for (var i = 0; i<5;i++) {
+            console.log("Saya bernilai" + i);
+            
+        }
+        var j = 0;
+        while (j < 5) {
+            console.log("While : Saya bernilai "  + j);
+            j++;
+        }
+        var k = 0
+        do{
+            console.log("Do while : sayabernilai " + k);
+            k++;
+        }
+        while(k < 5)
+    </script>
+    <script>
+        var lampu = true;
+
+        if(lampu){
+            console.log("Lampu nyala");
+        } else{
+            console.log("lampu mati");
+        }
+    </script>
+    <script>
+        function kalikanAngka(angka1,angka2) {
+            return angka1*angka2;
+        }
+        console.log(kalikanAngka(5,3));
+        document.getElementById('datanya').innerHTML=kalikanAngka(5,3);
+    </script>
+    <script>
+        function x(){
+          document.write(2+5+"8");
+        }
+    </script>
+</body>
+</html>
